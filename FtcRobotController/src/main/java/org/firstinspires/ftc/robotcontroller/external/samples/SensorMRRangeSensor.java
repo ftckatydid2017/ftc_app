@@ -70,6 +70,7 @@ public class SensorMRRangeSensor extends LinearOpMode {
             telemetry.addData("cm optical", "%.2f cm", rangeSensor.cmOptical());
             telemetry.addData("cm", "%.2f cm", rangeSensor.getDistance(DistanceUnit.CM));
             telemetry.update();
+            // tai and richard is awesome
         }
     }
 }
